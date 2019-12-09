@@ -47,17 +47,6 @@ F 3 "~" H 7400 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L kicad-rescue:MYCONN3-myLib-kicad-rescue J1
-U 1 1 5DEBA027
-P 6200 4500
-F 0 "J1" H 6258 4865 50  0000 C CNN
-F 1 "MYCONN3" H 6258 4774 50  0000 C CNN
-F 2 "Connector:Banana_Jack_3Pin" H 6200 4750 50  0001 C CNN
-F 3 "" H 6200 4750 50  0001 C CNN
-	1    6200 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR05
 U 1 1 5DEBAF59
 P 6750 4400
@@ -207,4 +196,15 @@ F 3 "~" H 4150 4300 50  0001 C CNN
 $EndComp
 NoConn ~ 6850 3850
 NoConn ~ 7900 4500
+$Comp
+L myLib:MYCONN3 J1
+U 1 1 5DEDE99A
+P 6200 4500
+F 0 "J1" H 6258 4865 50  0000 C CNN
+F 1 "MYCONN3" H 6258 4774 50  0000 C CNN
+F 2 "Connector:Banana_Jack_3Pin" H 6200 4750 50  0001 C CNN
+F 3 "" H 6200 4750 50  0001 C CNN
+	1    6200 4500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
