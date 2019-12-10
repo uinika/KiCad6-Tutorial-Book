@@ -155,12 +155,12 @@ Text Label 6200 3450 0    50   ~ 0
 b4
 Wire Bus Line
 	5150 3000 6050 3000
-Wire Bus Line
-	6050 3000 6050 3350
-Wire Bus Line
-	5150 3000 5150 4850
 Text Label 5150 3100 0    50   ~ 0
 a[1..4]
 Text Label 6050 3100 2    50   ~ 0
 b[1..4]
+Wire Bus Line
+	6050 3000 6050 3350
+Wire Bus Line
+	5150 3000 5150 4850
 $EndSCHEMATC

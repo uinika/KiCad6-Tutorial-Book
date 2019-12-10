@@ -160,7 +160,62 @@ Wire Bus Line
 Wire Bus Line
 	5150 3000 5150 4850
 Text Label 5150 3100 0    50   ~ 0
-a[a..4]
+a[1..4]
 Text Label 6050 3100 2    50   ~ 0
-b[a..4]
+b[1..4]
+$Comp
+L Connector_Generic:Conn_01x04 P?
+U 1 1 5DEFD909
+P 6300 4000
+F 0 "P?" H 6380 3992 50  0000 L CNN
+F 1 "CONN_4" H 6380 3901 50  0000 L CNN
+F 2 "" H 6300 4000 50  0001 C CNN
+F 3 "~" H 6300 4000 50  0001 C CNN
+	1    6300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 P?
+U 1 1 5DEFDC25
+P 6400 4550
+F 0 "P?" H 6480 4542 50  0000 L CNN
+F 1 "CONN_4" H 6480 4451 50  0000 L CNN
+F 2 "" H 6400 4550 50  0001 C CNN
+F 3 "~" H 6400 4550 50  0001 C CNN
+	1    6400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 P?
+U 1 1 5DEFDF3F
+P 6500 5100
+F 0 "P?" H 6580 5092 50  0000 L CNN
+F 1 "CONN_4" H 6580 5001 50  0000 L CNN
+F 2 "" H 6500 5100 50  0001 C CNN
+F 3 "~" H 6500 5100 50  0001 C CNN
+	1    6500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 P?
+U 1 1 5DEFE0D0
+P 7500 5000
+F 0 "P?" H 7580 4992 50  0000 L CNN
+F 1 "CONN_4" H 7580 4901 50  0000 L CNN
+F 2 "" H 7500 5000 50  0001 C CNN
+F 3 "~" H 7500 5000 50  0001 C CNN
+	1    7500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 P?
+U 1 1 5DEFE2E5
+P 7450 4200
+F 0 "P?" H 7530 4192 50  0000 L CNN
+F 1 "CONN_4" H 7530 4101 50  0000 L CNN
+F 2 "" H 7450 4200 50  0001 C CNN
+F 3 "~" H 7450 4200 50  0001 C CNN
+	1    7450 4200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
