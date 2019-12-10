@@ -120,20 +120,18 @@ Wire Wire Line
 Wire Wire Line
 	7550 4500 7900 4500
 Wire Wire Line
-	5850 3850 6850 3850
-Wire Wire Line
 	5250 4450 5250 4550
 Wire Wire Line
 	5250 3150 5250 3250
-Text Label 6450 3950 0    50   ~ 0
+Text Label 6850 3850 0    50   ~ 0
 INPUT
 Text Label 6800 4500 0    50   ~ 0
 INPUTtoR
-Text Label 7600 4500 0    50   ~ 0
+Text Label 7900 4500 0    50   ~ 0
 INPUT
 Text Label 6900 3450 1    50   ~ 0
 LEDtoR
-Text Label 6200 3750 0    50   ~ 0
+Text Label 6150 3750 0    50   ~ 0
 UCtoLED
 $Comp
 L MCU_Microchip_PIC12:PIC12C508A-ISN U1
@@ -194,8 +192,6 @@ F 3 "~" H 4150 4300 50  0001 C CNN
 	1    4150 4300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6850 3850
-NoConn ~ 7900 4500
 $Comp
 L myLib:MYCONN3 J1
 U 1 1 5DEDE99A
@@ -207,4 +203,6 @@ F 3 "" H 6200 4750 50  0001 C CNN
 	1    6200 4500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5850 3850 6850 3850
 $EndSCHEMATC
