@@ -89,4 +89,78 @@ Entry Wire Line
 	6050 3250 6150 3350
 Entry Wire Line
 	6050 3350 6150 3450
+Wire Wire Line
+	4700 3150 5050 3150
+Wire Wire Line
+	4700 3250 5050 3250
+Wire Wire Line
+	4700 3350 5050 3350
+Wire Wire Line
+	4700 3450 5050 3450
+Wire Wire Line
+	4700 3900 5050 3900
+Wire Wire Line
+	4700 4000 5050 4000
+Wire Wire Line
+	4700 4100 5050 4100
+Wire Wire Line
+	4700 4200 5050 4200
+Wire Wire Line
+	4700 4650 5050 4650
+Wire Wire Line
+	5050 4750 4700 4750
+Wire Wire Line
+	4700 4850 5050 4850
+Wire Wire Line
+	5050 4950 4700 4950
+Wire Wire Line
+	6150 3450 6450 3450
+Wire Wire Line
+	6150 3350 6450 3350
+Wire Wire Line
+	6150 3250 6450 3250
+Wire Wire Line
+	6450 3150 6150 3150
+Text Label 4900 3150 0    50   ~ 0
+a1
+Text Label 4900 3250 0    50   ~ 0
+a2
+Text Label 4900 3350 0    50   ~ 0
+a3
+Text Label 4900 3450 0    50   ~ 0
+a4
+Text Label 4900 3900 0    50   ~ 0
+a1
+Text Label 4900 4000 0    50   ~ 0
+a2
+Text Label 4900 4100 0    50   ~ 0
+a3
+Text Label 4900 4200 0    50   ~ 0
+a4
+Text Label 4900 4850 0    50   ~ 0
+a3
+Text Label 4900 4750 0    50   ~ 0
+a2
+Text Label 4900 4950 0    50   ~ 0
+a4
+Text Label 4900 4650 0    50   ~ 0
+a1
+Text Label 6200 3150 0    50   ~ 0
+b1
+Text Label 6200 3250 0    50   ~ 0
+b2
+Text Label 6200 3350 0    50   ~ 0
+b3
+Text Label 6200 3450 0    50   ~ 0
+b4
+Wire Bus Line
+	5150 3000 6050 3000
+Wire Bus Line
+	6050 3000 6050 3350
+Wire Bus Line
+	5150 3000 5150 4850
+Text Label 5150 3100 0    50   ~ 0
+a[1..4]
+Text Label 6050 3100 2    50   ~ 0
+b[1..4]
 $EndSCHEMATC
