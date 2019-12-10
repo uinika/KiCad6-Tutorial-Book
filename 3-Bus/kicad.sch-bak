@@ -1,0 +1,92 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "https://uinika.gitee.io/"
+Date ""
+Rev ""
+Comp "Hank"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x04 P10
+U 1 1 5DEF6D3E
+P 4800 3500
+F 0 "P10" H 4718 3817 50  0000 C CNN
+F 1 "CONN_1" H 4718 3726 50  0000 C CNN
+F 2 "" H 4800 3500 50  0001 C CNN
+F 3 "~" H 4800 3500 50  0001 C CNN
+	1    4800 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 P11
+U 1 1 5DEF7733
+P 4800 4250
+F 0 "P11" H 4718 4567 50  0000 C CNN
+F 1 "CONN_2" H 4718 4476 50  0000 C CNN
+F 2 "" H 4800 4250 50  0001 C CNN
+F 3 "~" H 4800 4250 50  0001 C CNN
+	1    4800 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 P12
+U 1 1 5DEF814B
+P 4800 5000
+F 0 "P12" H 4718 5317 50  0000 C CNN
+F 1 "CONN_3" H 4718 5226 50  0000 C CNN
+F 2 "" H 4800 5000 50  0001 C CNN
+F 3 "~" H 4800 5000 50  0001 C CNN
+	1    4800 5000
+	-1   0    0    -1  
+$EndComp
+Entry Wire Line
+	5450 4150 5350 4250
+Entry Wire Line
+	5450 4050 5350 4150
+Entry Wire Line
+	5450 4350 5350 4450
+Entry Wire Line
+	5450 4250 5350 4350
+Entry Wire Line
+	5450 4900 5350 5000
+Entry Wire Line
+	5350 4900 5450 4800
+Entry Wire Line
+	5350 5100 5450 5000
+Entry Wire Line
+	5350 5200 5450 5100
+Entry Wire Line
+	5450 3600 5350 3700
+Entry Wire Line
+	5350 3600 5450 3500
+Entry Wire Line
+	5350 3500 5450 3400
+Entry Wire Line
+	5450 3300 5350 3400
+$Comp
+L Connector_Generic:Conn_01x04 P13
+U 1 1 5DEF8B8E
+P 6950 3500
+F 0 "P13" H 7030 3492 50  0000 L CNN
+F 1 "CONN_4" H 7030 3401 50  0000 L CNN
+F 2 "" H 6950 3500 50  0001 C CNN
+F 3 "~" H 6950 3500 50  0001 C CNN
+	1    6950 3500
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	6350 3300 6450 3400
+Entry Wire Line
+	6350 3400 6450 3500
+Entry Wire Line
+	6350 3500 6450 3600
+Entry Wire Line
+	6350 3600 6450 3700
+$EndSCHEMATC
