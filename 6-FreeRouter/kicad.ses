@@ -1,0 +1,177 @@
+
+(session kicad.ses
+  (base_design kicad.dsn)
+  (placement
+    (resolution um 10)
+    (component Connector:Banana_Jack_3Pin
+      (place J1 1294090 -1145540 front 0)
+    )
+    (component "Package_DIP:DIP-8_W7.62mm"
+      (place U1 1418590 -942340 front 90)
+    )
+    (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+      (place R2 1596390 -891540 front 270)
+    )
+    (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical::1
+      (place R1 1316990 -1013460 front 180)
+    )
+    (component LED_THT:LED_D5.0mm
+      (place D1 1316990 -894080 front 180)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(5.1.5)-2")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_1778:762_um"
+        (shape
+          (circle F.Cu 17780 0 0)
+        )
+        (shape
+          (circle B.Cu 17780 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net GND
+        (via "Via[0-1]_1778:762_um" 1418590 -866140
+          (type protect)
+        )
+        (wire
+          (path B.Cu 12700
+            1418590 -866140
+            1381760 -866140
+            1369060 -878840
+            1369060 -1008380
+            1423670 -1062990
+            1583080 -1062990
+            1593790 -1073700
+            1593790 -1145540
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D1-Pad1)"
+        (wire
+          (path F.Cu 2500
+            1319530 -891540
+            1316990 -894080
+          )
+        )
+        (wire
+          (path F.Cu 12700
+            1443990 -866140
+            1443990 -877454
+            1443870 -877570
+            1443870 -884036
+            1436370 -891540
+            1319530 -891540
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 12700
+            1319530 -891540
+            1316990 -891540
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 12700
+            1443990 -866140
+            1443530 -866140
+          )
+          (type protect)
+        )
+      )
+      (net /LEDtoR
+        (wire
+          (path F.Cu 12700
+            1291590 -894080
+            1291590 -1013460
+          )
+          (type protect)
+        )
+      )
+      (net /INPUTtoR
+        (wire
+          (path F.Cu 12700
+            1596390 -916940
+            1596390 -988060
+            1563370 -1021080
+            1479550 -1021080
+            1443990 -1056640
+            1443990 -1145540
+          )
+          (type protect)
+        )
+      )
+      (net VCC
+        (wire
+          (path F.Cu 12700
+            1316990 -1013460
+            1368170 -1013460
+            1418590 -963040
+            1418590 -942340
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 12700
+            1316990 -1013460
+            1316990 -1122640
+            1294090 -1145540
+          )
+          (type protect)
+        )
+      )
+      (net /INPUT
+        (wire
+          (path F.Cu 12700
+            1469390 -881380
+            1469390 -883920
+            1477010 -891540
+            1596390 -891540
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 12700
+            1469390 -877454
+            1469390 -881380
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 12700
+            1469390 -866140
+            1469390 -877454
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 12700
+            1469390 -877454
+            1469390 -881380
+          )
+          (type protect)
+        )
+      )
+    )
+  )
+)

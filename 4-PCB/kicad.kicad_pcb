@@ -40,7 +40,7 @@
   )
 
   (setup
-    (last_trace_width 1.27)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
     (user_trace_width 1.27)
@@ -99,9 +99,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "D:/Workspace/abrams/5-Gerber/"))
   )
 
   (net 0 "")
@@ -337,7 +337,6 @@
   (gr_line (start 166.751 83.82) (end 166.751 122.174) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 122.301 83.82) (end 166.751 83.82) (layer Edge.Cuts) (width 0.05))
 
-  (via (at 141.859 86.614) (size 1.778) (drill 0.762) (layers F.Cu B.Cu) (net 4))
   (segment (start 144.399 86.614) (end 144.352802 86.614) (width 1.27) (layer F.Cu) (net 1))
   (segment (start 144.399 87.74537) (end 144.38737 87.757) (width 1.27) (layer F.Cu) (net 1))
   (segment (start 144.399 86.614) (end 144.399 87.74537) (width 1.27) (layer F.Cu) (net 1))
@@ -351,6 +350,7 @@
   (segment (start 156.337 102.108) (end 147.955 102.108) (width 1.27) (layer F.Cu) (net 3))
   (segment (start 144.399 105.664) (end 144.399 114.554) (width 1.27) (layer F.Cu) (net 3))
   (segment (start 147.955 102.108) (end 144.399 105.664) (width 1.27) (layer F.Cu) (net 3))
+  (via (at 141.859 86.614) (size 1.778) (drill 0.762) (layers F.Cu B.Cu) (net 4))
   (segment (start 159.379 107.369796) (end 159.379 114.554) (width 1.27) (layer B.Cu) (net 4))
   (segment (start 158.308204 106.299) (end 159.379 107.369796) (width 1.27) (layer B.Cu) (net 4))
   (segment (start 141.859 86.614) (end 138.176 86.614) (width 1.27) (layer B.Cu) (net 4))
@@ -370,7 +370,7 @@
   (segment (start 146.939 87.74537) (end 146.939 88.392) (width 1.27) (layer F.Cu) (net 6))
   (segment (start 146.939 88.392) (end 147.701 89.154) (width 1.27) (layer F.Cu) (net 6))
 
-  (zone (net 4) (net_name GND) (layer B.Cu) (tstamp 5DF0C2C2) (hatch edge 0.508)
+  (zone (net 4) (net_name GND) (layer B.Cu) (tstamp 5DF0E2FE) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
