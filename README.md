@@ -15,10 +15,10 @@ A number of **PCB Layout** Cases base on KiCad 5.1.5.
 1. 《工具套件概述》
 2. 《向前与向后注解》
 3. 《热键与快捷键》
-4. 《制作原理图符号》 --> `1-Schematic-Library`
-5. 《绘制原理图》 --> `2-Schematic`
-6. 《原理图总线应用》 --> `3-Bus`
-7. 《印刷电路板布局》 --> `4-PCB`
-8. 《导出 Gerber 文件》 --> `5-Gerber`
+4. 《制作原理图符号》 ---------> `1-Schematic-Library`
+5. 《绘制原理图》 ------------> `2-Schematic`
+6. 《原理图总线应用》 ---------> `3-Bus`
+7. 《印刷电路板布局》 ---------> `4-PCB`
+8. 《导出 Gerber 文件》 ------> `5-Gerber`
 9. 《自动布线 FreeRouting》 --> `6-FreeRouting`
-10. 《PCB 封装制作》
+10. 《PCB 封装制作》----------> `7-Footprint`
