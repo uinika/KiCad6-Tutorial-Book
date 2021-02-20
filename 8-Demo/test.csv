@@ -1,0 +1,7 @@
+Reference, Quantity, Value, Footprint, Datasheet
+C1 C2 ,2,"104","Capacitor_SMD:C_0603_1608Metric","~"
+D1 D2 ,2,"LED","LED_SMD:LED_0603_1608Metric","~"
+J1 ,1,"USB_A","Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal"," ~"
+J2 ,1,"Conn_01x05","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal","~"
+R1 R2 ,2,"4.7k","Resistor_SMD:R_0603_1608Metric","~"
+U1 ,1,"CH330N","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.wch.cn/downloads/file/240.html"
