@@ -24,7 +24,7 @@ A number of **PCB Layout** Cases base on KiCad 5.1.5.
 |   8    | 《导出 Gerber 文件》                    | `5-Gerber`            |
 |   9    | 《自动布线 FreeRouting》                | `6-FreeRouting`       |
 |   10   | 《PCB 封装制作》                        | `7-Footprint`         |
-| **附** | `CH330` USB 串口转接 PCB 示例           | `8-USB-Serial-Port`   |
+| **附** | 绘制 `CH330` USB 串口转接 PCB 示例      | `8-USB-Serial-Port`   |
 | **附** | 绘制 `CH340N` 原理图符号与 PCB 封装示例 | `9-CH340N`            |
 
 > **注意**：源码目录下的 `8-Demo` 是基于 **CH330** 芯片的 USB 转 TTL 模块的原理图与 PCB 布线实例。
