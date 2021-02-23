@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CH340N
+D USB serial port
+K USB
+$ENDCMP
+#
+#End Doc Library
