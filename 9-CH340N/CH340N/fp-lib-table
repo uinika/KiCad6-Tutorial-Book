@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Hank-Foontprint)(type KiCad)(uri ${KIPRJMOD}/Hank-Foontprint.pretty)(options "")(descr ""))
-)

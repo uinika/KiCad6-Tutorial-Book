@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Hank-Symbol)(type Legacy)(uri ${KIPRJMOD}/Hank-Symbol.lib)(options "")(descr ""))
-)

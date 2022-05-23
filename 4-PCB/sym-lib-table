@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name kicad-rescue)(type Legacy)(uri ${KIPRJMOD}/kicad-rescue.lib)(options "")(descr ""))
-  (lib (name myLib)(type Legacy)(uri ${KIPRJMOD}/myLib.lib)(options "")(descr ""))
-)

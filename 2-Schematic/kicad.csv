@@ -1,6 +1,0 @@
-Reference, Value, Footprint, Datasheet
-"D1","LED","LED_THT:LED_D5.0mm","~"
-"R1","1k","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical","~"
-"R2","100","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical","~"
-"J1","MYCONN3","Connector:Banana_Jack_3Pin",""
-"U1","PIC12C508A-ISN","Package_DIP:DIP-8_W7.62mm","http://ww1.microchip.com/downloads/en/devicedoc/40139e.pdf"
