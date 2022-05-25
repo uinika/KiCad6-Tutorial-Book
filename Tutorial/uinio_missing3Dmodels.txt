@@ -1,0 +1,9 @@
+### Missing 3D models - created on 2022-05-25 19:42
+### Printed by checking_3D_models plugin
+Board file: C:/Workspace/abrams/Tutorial/uinio.kicad_pcb
+3D missing models written to:
+C:\Workspace\abrams\Tutorial\uinio_missing3Dmodels.txt
+-------
+-------
+NUM of 3D missing models:0
+checked extensions ['.stp', '.step', '.stpZ']

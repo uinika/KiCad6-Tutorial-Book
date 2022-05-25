@@ -1,0 +1,9 @@
+### Module positions - created on Wed May 25 19:47:14 2022 ###
+### Printed by Pcbnew version (6.0.5)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val       Package                                                 PosX       PosY       Rot  Side
+BT1       3V        BatteryHolder_Keystone_1058_1x2032                   45.5000    55.0000   90.0000  bottom
+D1        Red_LED   LED_D5.0mm                                          -14.0000    61.2750  -90.0000  top
+R1        1k        R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal    -7.6500    47.0000  180.0000  top
+## End
