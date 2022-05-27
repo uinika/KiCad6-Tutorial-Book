@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "RaspberryLibrary")(type "KiCad")(uri "${KIPRJMOD}/RaspberryLibrary.pretty")(options "")(descr ""))
+)

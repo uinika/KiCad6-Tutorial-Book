@@ -63,10 +63,10 @@
       36
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
-    "filename": "RaspberryPi_Sheld.kicad_prl",
+    "filename": "RaspberryPi_Shield.kicad_prl",
     "version": 3
   },
   "project": {
