@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Getting_Started")(type "KiCad")(uri "${KIPRJMOD}/Getting_Started.kicad_sym")(options "")(descr ""))
+)
